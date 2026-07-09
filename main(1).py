@@ -1,0 +1,6 @@
+print("Hello , in letter counter program.")
+print("_"*40)
+world = input ("Enter words:\n ")
+print("_"*40)
+counter = len(world.replace(' ',''))
+print("your paragraph has"+str(counter) + "letter")
